@@ -1,3 +1,4 @@
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Alansaji2003)](https://git.io/streak-stats)
 # I've joined the #100DaysOfCode Challenge
 
 ## Contents
@@ -57,4 +58,4 @@ I recommend that you commit to no more than 2-3 challenges at a time, ideally 2.
 * If you like this repo and find it useful, please consider &#9733; starring it (on top right of the page) and forking it :)
 
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Alansaji2003)](https://git.io/streak-stats)
+
