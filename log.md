@@ -9,7 +9,7 @@ todays progress: Made a cv in html
 thoughts: i wish to continue my work for 100 days and utilise this new experience in my coding 
 
 ### R1D2
-todays progress: made a informatie website about historical monument sanchi stupa<br>
+todays progress: made a informative website about historical monument sanchi stupa<br>
 thoughts: html is quite intersting!
 
 ### R1D3
