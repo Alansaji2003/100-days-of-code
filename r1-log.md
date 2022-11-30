@@ -12,4 +12,4 @@ thoughts: i wish to continue my work for 100 days and utilise this new experienc
 todays progress: made a informatie website about historical monument sanchi stupa<br>
 thoughts: html is quite intersting!
 
-###R1D3
+### R1D3
