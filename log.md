@@ -13,3 +13,5 @@ todays progress: made a informative website about historical monument sanchi stu
 thoughts: html is quite intersting!
 
 ### R1D3
+todays progress: made an id card
+thoughts: puting dp was a task...
