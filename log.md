@@ -15,3 +15,7 @@ thoughts: html is quite intersting!
 ### R1D3
 todays progress: made an id card<br>
 thoughts: puting dp was a task...
+
+### R1D4
+todays progress: made basic forms
+thoughts: easy
