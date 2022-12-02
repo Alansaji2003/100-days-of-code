@@ -17,5 +17,5 @@ todays progress: made an id card<br>
 thoughts: puting dp was a task...
 
 ### R1D4
-todays progress: made basic forms
+todays progress: made basic forms<br>
 thoughts: easy
