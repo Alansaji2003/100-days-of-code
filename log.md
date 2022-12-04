@@ -23,3 +23,7 @@ thoughts: easy
 ### R1D5
 todays progress: made a personel website with more fresh CSS its more like this centuries website<br>
 thoughts: i was working on this for a bit finally im posting
+
+### R1D5
+todays progress: been working on this website about  space tourusm , was following along the instructor , didnt really understood everything but a bit utility classes<br>
+thoughts: omg its too complex i dont have anything else to put up here so putting the design
