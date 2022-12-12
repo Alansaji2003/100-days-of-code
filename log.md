@@ -33,3 +33,6 @@ thoughts:im dead
 ### R1D8
 todays progress: full site<br>
 thoughts:mugged up all the codes im so done arhh too much to handle
+### R1D9
+todays progress: started working on a new website using bootstrap
+thoughts:learning bootstrap feels good
