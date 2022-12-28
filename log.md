@@ -29,10 +29,10 @@ todays progress: been working on this website about  space tourusm , was followi
 thoughts: omg its too complex i dont have anything else to put up here so putting the design
 ### R1D7
 todays progress:css of the site <br>
-thoughts:im dead
+thoughts:its hard
 ### R1D8
 todays progress: full site<br>
-thoughts:mugged up all the codes im so done arhh too much to handle
+thoughts:confusing
 ### R1D9
 todays progress: started working on a new website using bootstrap
 thoughts:learning bootstrap feels good
