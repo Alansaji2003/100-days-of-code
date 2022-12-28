@@ -34,5 +34,8 @@ thoughts:its hard
 todays progress: full site<br>
 thoughts:confusing
 ###  DAY 9
-todays progress: started working on a new website using bootstrap
+todays progress: started working on a new website using bootstrap <br>
 thoughts:learning bootstrap feels good
+###  DAY 10
+todays progress: learned javascript to animate a rectangle using canvas <br>
+thoughts: this is the begining of learning to make a pure javascript 2d game
