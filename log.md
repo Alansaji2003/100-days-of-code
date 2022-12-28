@@ -39,3 +39,6 @@ thoughts:learning bootstrap feels good
 ###  DAY 10
 todays progress: learned javascript to animate a rectangle using canvas <br>
 thoughts: this is the begining of learning to make a pure javascript 2d game
+###  DAY 11
+todays progress:learned to cut and use sprite according to frame and how to animate them also learned how to change speed of animation<br>
+thoughts: its hetting interesting
