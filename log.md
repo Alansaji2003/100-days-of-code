@@ -43,5 +43,5 @@ thoughts: this is the begining of learning to make a pure javascript 2d game
 todays progress: learned to cut and use spritesheet according to frame and how to animate them also learned how to change speed of animation<br>
 thoughts: its getting interesting
 ###  DAY 12
-todays progress: added  the different kinds of sprite animations to the sprite, with loops going through the position and frames of the respective sprite images, and added a drop down list to select between the diffrent animations of the sprite 
+todays progress: added  the different kinds of sprite animations to the sprite, with loops going through the position and frames of the respective sprite images, and added a drop down list to select between the diffrent animations of the sprite <br>
 thoughts: debugging the code took a lot of time
