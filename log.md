@@ -46,5 +46,5 @@ thoughts: its getting interesting
 todays progress: added  the different kinds of sprite animations to the sprite, with loops going through the position and frames of the respective sprite images, and added a drop down list to select between the diffrent animations of the sprite <br>
 thoughts: debugging the code took a lot of time
 ### DAY 13
-todays progress: made the infinite sliding environment of the game, the speed of the frames can be adjusted, classes instances and arrays were uses to store and create blueprints. <br>
+todays progress: made the infinite sliding environment of the game, the speed of the frames can be adjusted, classes instances and arrays were used to store and create blueprints. <br>
 thoughts: the logic was quite difficult.
