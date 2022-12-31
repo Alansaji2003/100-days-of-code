@@ -48,3 +48,6 @@ thoughts: debugging the code took a lot of time
 ### DAY 13
 todays progress: made the infinite sliding environment of the game, the speed of the frames can be adjusted, classes instances and arrays were used to store and create blueprints. <br>
 thoughts: the logic was quite difficult.
+### DAY 14
+todays progress: made the enemy npcs and given them random movements 
+thoughts: its getting better!!
