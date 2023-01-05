@@ -51,6 +51,6 @@ thoughts: the logic was quite difficult.
 ### DAY 14
 todays progress: made the enemy npcs and given them random movements <br>
 thoughts: its getting better!!
-### DAY 14
+### DAY 15
 todays progress: made other npc with random movements using math.sin and math.cos
 thoughts: its getting better!!
