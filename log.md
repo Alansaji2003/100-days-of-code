@@ -54,3 +54,8 @@ thoughts: its getting better!!
 ### DAY 15
 todays progress: made other npc with random movements using math.sin and math.cos<br>
 thoughts: its getting better!!
+### DAY 16
+todays progress: made explosion animation with sound which activates on mouse click<br>
+thoughts: some concepts are difficult to grasp!!
+
+
