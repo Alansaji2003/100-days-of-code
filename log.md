@@ -57,5 +57,8 @@ thoughts: its getting better!!
 ### DAY 16
 todays progress: made explosion animation with sound which activates on mouse click<br>
 thoughts: some concepts are difficult to grasp!!
+### DAY 17
+todays progress: made another enemy npc the ravens, also learned about timestamps to make the game run in the same speed wheather your computer is slow or fast <br>
+thoughts: gonna add score next day!!
 
 
