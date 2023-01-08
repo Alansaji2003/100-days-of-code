@@ -60,5 +60,7 @@ thoughts: some concepts are difficult to grasp!!
 ### DAY 17
 todays progress: made another enemy npc the ravens, also learned about timestamps to make the game run in the same speed wheather your computer is slow or fast <br>
 thoughts: gonna add score next day!!
-
+### DAY 18
+todays progress: added score and explosion animation along with gross sound <br>
+thoughts: simple game!!
 
