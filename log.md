@@ -63,4 +63,6 @@ thoughts: gonna add score next day!!
 ### DAY 18
 todays progress: added score and explosion animation along with gross sound <br>
 thoughts: simple game!!
-
+### DAY 19
+todays progress: animating diffrent enemy types with javascript subclassing to decrease the lenghth of code<br>
+thoughts: just the first enemy two more will be added through subclassing tomorrow
