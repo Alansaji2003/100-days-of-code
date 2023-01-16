@@ -66,3 +66,6 @@ thoughts: simple game!!
 ### DAY 19
 todays progress: animating diffrent enemy types with javascript subclassing to decrease the lenghth of code<br>
 thoughts: just the first enemy two more will be added through subclassing tomorrow
+### DAY 20
+todays progress: animating diffrent enemy types with javascript subclassing to decrease the lenghth of code part 2 - added ghost and spider
+thoughts: getting fimiliar with subclassing
