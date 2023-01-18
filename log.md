@@ -70,5 +70,5 @@ thoughts: just the first enemy two more will be added through subclassing tomorr
 todays progress: animating diffrent enemy types with javascript subclassing to decrease the lenghth of code part 2 - added ghost and spider
 thoughts: getting familiar with subclassing
 ### DAY 21
-todays progress:Made a simple 2d game through phaser.js version3.
+todays progress:Made a simple 2d game through phaser.js version3.<br>
 thoughts:the whole thing was a lot of work, one thing is it doesnt work until its hosted, because there is some security issue and cross orgin error occurs, so i had to host my file through my local ip by using python through cammand line.
