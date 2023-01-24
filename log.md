@@ -72,6 +72,9 @@ thoughts: getting familiar with subclassing
 ### DAY 21
 todays progress:Made a simple 2d game through phaser.js version3.<br>
 thoughts:the whole thing was a lot of work, one thing is it doesnt work until its hosted, because there is some security issue and cross orgin error occurs, so i had to host my file through my local ip by using python through cammand line.
-### DAY 21
+### DAY 22
 todays progress:Made a website for IEEC in Banarus Hindu University in association with an NGO.<br>
 thoughts: Bootstrap is useful
+### DAY 23
+todays progress: Made a simple version of the shadow dog game with player animations, enemy and infinite scrolling environment.<br>
+thoughts: getting nearer to full game
