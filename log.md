@@ -78,3 +78,7 @@ thoughts: Bootstrap is useful
 ### DAY 23
 todays progress: Made a simple version of the shadow dog game with player animations, enemy and infinite scrolling environment.<br>
 thoughts: getting nearer to full game
+### DAY 24
+todays progress: Added fullscreen toggler using the build in method, game restart options, and mobile compability: added swipping options.<br>
+thoughts: getting nearer to full game
+
