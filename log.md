@@ -81,4 +81,6 @@ thoughts: getting nearer to full game
 ### DAY 24
 todays progress: Added fullscreen toggler using the build in method, game restart options, and mobile compability: added swipping options.<br>
 thoughts: getting nearer to full game
-
+### DAY 25
+todays progress: Managing player states and blocking other inputs while in one state. Breaking JS into modules for easier access.<br>
+thoughts: getting nearer to full game
