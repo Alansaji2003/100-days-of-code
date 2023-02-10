@@ -84,3 +84,12 @@ thoughts: getting nearer to full game
 ### DAY 25
 todays progress: Managing player states and blocking other inputs while in one state. Breaking JS into modules for easier access.<br>
 thoughts: getting nearer to full game
+### DAY 26
+todays progress: Full JavaScript 2D game - SHADOW DOG- from freeCodeCamp and Franks laboratory. 
+ahhh finally completed🥵🙏.<br>
+thoughts: its over guys
+### DAY 27
+todays progress: dice game in js
+thoughts: getting used to basic DOM
+
+
