@@ -91,5 +91,7 @@ thoughts: its over guys
 ### DAY 27
 todays progress: dice game in js
 thoughts: getting used to basic DOM
+###DAY 28 
+made online drum kit using javascript
 
 
