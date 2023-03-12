@@ -91,9 +91,9 @@ thoughts: its over guys
 ### DAY 27
 todays progress: dice game in js
 thoughts: getting used to basic DOM
-###DAY 28 
+### DAY 28 
 made online drum kit using javascript
-###DAY 29
+### DAY 29
 Made Simon game with JQuery
-###DAY 30
+### DAY 30
 begining backend
