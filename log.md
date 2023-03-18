@@ -97,3 +97,10 @@ made online drum kit using javascript
 Made Simon game with JQuery
 ### DAY 30
 begining backend
+### DAY 31
+Made Weather App which tells you the real time weather conditions of any place using node and express js, by using openweathermap's API and documentation
+### DAY 32
+Made a sign in page for a email newsletter. Using mailchimps API and hosted it on glitch
+### DAY 33
+Made recepe finding web app with edamam API
+
