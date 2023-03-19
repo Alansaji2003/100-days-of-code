@@ -1,0 +1,28 @@
+<%- include("header") -%>
+
+
+
+    <div class="box" id="heading">
+        <h1> <%= ListTitle %></h1>
+    </div>
+    <div class="box">
+        <%var n = newListItem.length%>
+        <%for(var i =0; i<=n; i++){%>
+            <div class="item">
+                <input type="checkbox" >
+                <p><%=newListItem[i]%> </p>
+            </div>
+        <%}%>
+        <form class="item" action="/" method="post">
+            <input type="text" placeholder="New item" name="newitem" autocomplete="off">
+            <button class="button" name="list" value="<%= ListTitle  %>" type="submit">+</button>
+        </form>
+    </div>
+   
+    <footer>
+        <a href="https://linktr.ee/alansaji2003"><h2>©Alan Saji</h2></a>
+        <a href='/about'><p>about</p></a>
+    </footer>
+     <a href="<%= href %>"><button style="margin-left: 850px;"><p><%= goback %></p></button></a>
+    </body>
+    </html>
