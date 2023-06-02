@@ -103,14 +103,19 @@ Made Weather App which tells you the real time weather conditions of any place u
 Made a sign in page for a email newsletter. Using mailchimps API and hosted it on glitch
 ### DAY 33
 Made recepe finding web app with edamam API
+### Day 34
+To do list to demonstrate EJS templating, hosted it on glitch
+### Day 35
+Making a blog posting site with multiple pages to demontrate the use of EJS templating
 ### Day 36
-connecting mongoDB with node using mongoose
+working with SQL
 ### Day 37
-earning CRUD operations of latest mongosh shell
-###Day 39 
+connecting mongoDB with node using mongoose
+### Day 38
+learning CRUD operations of latest mongosh shell
+### Day 39
 working with node.js core module (fileSystem)
 ### Day 40
-
 Been busy for a couple of months....anyway completed 3 projects from freecodecamp responsive web design certification: -cat website, cafe menu, css markers
 ### Day 41
 freecodecamp responsive web design certification: first project completion Survey form
