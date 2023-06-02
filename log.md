@@ -103,4 +103,16 @@ Made Weather App which tells you the real time weather conditions of any place u
 Made a sign in page for a email newsletter. Using mailchimps API and hosted it on glitch
 ### DAY 33
 Made recepe finding web app with edamam API
-
+### Day 36
+connecting mongoDB with node using mongoose
+### Day 37
+earning CRUD operations of latest mongosh shell
+###Day 39 
+working with node.js core module (fileSystem)
+###Day 40
+DAY 40(HTML,CSS,JS)
+Been busy for a couple of months....anyway completed 3 projects from freecodecamp responsive web design certification: -cat website, cafe menu, css markers
+###Day 41
+freecodecamp responsive web design certification: first project completion Survey form
+###Day 42
+day 42(html,css,js) completed rothko painting
