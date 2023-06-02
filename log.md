@@ -109,10 +109,10 @@ connecting mongoDB with node using mongoose
 earning CRUD operations of latest mongosh shell
 ###Day 39 
 working with node.js core module (fileSystem)
-###Day 40
-DAY 40(HTML,CSS,JS)
+### Day 40
+
 Been busy for a couple of months....anyway completed 3 projects from freecodecamp responsive web design certification: -cat website, cafe menu, css markers
-###Day 41
+### Day 41
 freecodecamp responsive web design certification: first project completion Survey form
-###Day 42
+### Day 42
 day 42(html,css,js) completed rothko painting
