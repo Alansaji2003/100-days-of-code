@@ -121,3 +121,10 @@ Been busy for a couple of months....anyway completed 3 projects from freecodecam
 freecodecamp responsive web design certification: first project completion Survey form
 ### Day 42
 day 42(html,css,js) completed rothko painting
+### Day 43
+QR code generator using node.js
+### Day 44
+day 44(html,css,js) Completed flexbox gallery fcc certification
+### Day 45
+Made a portfolio for my bioengineer friend
+
