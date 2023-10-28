@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+<div class="first">
+  <h1>Contact Me</h1>
+  <form action="https://formspree.io/f/xqkvnnrd"
+  method="POST">
+    <input name="name" type="text" class="feedback-input" placeholder="Name" />
+    <input name="email" type="text" class="feedback-input" placeholder="Email" />
+    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+    <input type="submit" value="SUBMIT" />
+  </form>
+</div>
+
+<%- include("partials/footer.ejs") %>
