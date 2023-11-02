@@ -127,4 +127,21 @@ QR code generator using node.js
 day 44(html,css,js) Completed flexbox gallery fcc certification
 ### Day 45
 Made a portfolio for my bioengineer friend
+### Day 46
+Working with Express and Node-Refreshing Old topics--Made BandName Generator and  Secret Access Sites
+### Day 47
+Refreshing EJS templating
+made multi-page sample portfolio website usind EJS templating
+Made improvised band name generator
+### Day 48
+working with and JSON.parse and JSON.stringify to make taco recipe project
+### Day 49
+making activity generator web app with node,express,axios and EJS
+--stole css from codepen😊
+### Day 50
+learned about APIs, authorizations , no auth, basic auth, api keys and bearer tokens, RESTFUL APIs, get,post,put,patch,delete.
+--implementing with axios and express in javascript
+--projects : secrets project
+### Day 51
+Getting started with graphQL for a side project
 
