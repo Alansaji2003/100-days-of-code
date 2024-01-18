@@ -137,7 +137,7 @@ Made improvised band name generator
 working with and JSON.parse and JSON.stringify to make taco recipe project
 ### Day 49
 making activity generator web app with node,express,axios and EJS
---stole css from codepen😊
+--took css from codepen😊
 ### Day 50
 learned about APIs, authorizations , no auth, basic auth, api keys and bearer tokens, RESTFUL APIs, get,post,put,patch,delete.
 --implementing with axios and express in javascript
