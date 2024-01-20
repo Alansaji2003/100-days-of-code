@@ -1,0 +1,252 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DCFFB7;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.banner{
+    width: 100%;
+    display: block;
+    max-height: 600px; /* Adjust the value to your preferred maximum height */
+    overflow: hidden; 
+}
+.container{
+    height: 500px; /* Set the desired height for vertical cropping */
+    overflow: hidden;
+}
+.home{
+    width: 100%; /* Ensure the image fills the container horizontally */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block;
+}
+main {
+    flex: 1; /* This will make the main content take up the remaining space */
+    
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style each gallery item */
+li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Style the image within each gallery item */
+li img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Add a light border around the image */
+    border-radius: 5px; /* Add a slight border-radius for a rounded look */
+    transition: 0.3s; /* Add a smooth transition effect on hover */
+}
+
+/* Style the title link within each gallery item */
+li a {
+    display: block;
+    margin-top: 5px;
+    color: #333; /* Set link color */
+    text-decoration: none;
+}
+
+/* Add a hover effect on the image and link */
+li:hover img {
+    border: 3px solid #555; /* Change border color on hover */
+}
+
+li:hover a {
+    color: #555; /* Change link color on hover */
+}
+
+
+/* Style for the search container */
+#search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the search input */
+#search-input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+}
+
+/* Style for the search button */
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #f19b2a;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #FFBB64;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect for the search button */
+#search-button:hover {
+    background-color: #f19b2a;
+    color: #fff;
+    border-color: #FFBB64;
+}
+
+/* Style for the results container */
+#results-container {
+    padding: 20px;
+}
+.custom-button {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #f19b2a;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #FFBB64;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin: 50px;
+}
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: #f1c995;
+    border-color: #f49212;
+}
+.card {
+    background-color: #FFEAA7;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(50% - 20px);
+     /* 50% width with margin */
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.full-width-card {
+    width: calc(100% - 20px);
+}
+
+@media (max-width: 600px) {
+    /* On smaller screens, make cards full width */
+    .card {
+        width: calc(100% - 20px);
+    }
+}
+#results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+  }
+  
+  .result-item {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #FFEAA7;
+  }
+  
+  .result-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .result-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .result-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .result-item p {
+    color: #555;
+  }
+
+footer {
+    background-color: #FFBB64;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.footer-section p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.footer-section a {
+    display: block;
+    color: #fff;
+    margin-top: 5px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #e44d26; /* Change color on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom p {
+    font-size: 0.8em;
+}

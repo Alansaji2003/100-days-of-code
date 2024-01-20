@@ -1,0 +1,57 @@
+<%- include("partials/header.ejs") %>
+
+<body>
+    <main>
+        <div style="background-color: #FFBB64;height: 100px; margin-top: -22px;">
+            <h1 style="text-align: center;padding-top: 30px;font-weight: bolder;font-family:monospace;">Anime List</h1>
+        </div>
+        
+        <div style="text-align: right;" id="search-container">
+            <input type="text" id="search-input" placeholder="Search for anime...">
+            <button id="search-button" >Search</button>
+        </div>
+        <div id="results-container">
+            
+        </div>
+<ul>
+    <h1>Recomended</h1>
+    <% animeList.forEach(anime => { %>
+        <li>
+            <a href="/anime/<%= anime.id %>"><img src="<%= GetCoverImage(anime) %>" alt="<%= anime.title.romaji %> Cover"></a>
+            
+            <a href="/anime/<%= anime.id %>">
+                <% if (anime.title.romaji.length > 14) { %>
+                    <p><%= anime.title.romaji %></br></p>
+                <% }else{%>
+                    <%= anime.title.romaji %>
+                    <%} %>
+                
+            </a>
+        </li>
+    <% }); %>
+</ul>
+<div>
+    <% if (pageInfo.currentPage > 1) { %>
+       <a style="margin-left: 350px;" class="custom-button" href="/animes?page=<%= pageInfo.currentPage - 1 %>">Previous Page</a>
+    <% } %>
+    
+    <span style="margin-left: 200px;">Page <%= pageInfo.currentPage %> of <%= pageInfo.lastPage %></span>
+    
+    <% if (pageInfo.hasNextPage) { %>
+        <a style="margin-left: 200px;" class="custom-button" href="/animes?page=<%= pageInfo.currentPage + 1 %>">Next Page</a>
+    <% } %>
+    
+    <a style="margin-left: 750px;" class="custom-button" href="/">Home</a>
+</div>
+
+    </main>
+    
+<%- include("partials/footer.ejs") %>
+</body>
+
+</html>
+
+
+
+
+

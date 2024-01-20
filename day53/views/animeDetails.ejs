@@ -1,0 +1,47 @@
+<%- include("partials/header.ejs") %>
+<body>
+    <main>
+        
+        <img class="banner" src="<%=anime.bannerImage%>" alt="Banner">
+        <h1 style="text-align: center;"><%= anime.title.romaji %> (<%= anime.title.native %>)</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="<%= anime.coverImage.large %>" alt="<%= anime.title.romaji %> Cover">
+            </div>
+            <div class="card">
+               
+                    <p>Status: <%=anime.status%></p>
+                    <p>season: <%=anime.season %></p>
+                    <p>Episodes: <%=anime.episodes %></p>
+                    <p>Duration: <%= anime.duration %></p>
+                    <p>Popularity: <%= anime.popularity %></p>
+                    <p>Average Score: <%= anime.averageScore %></p>
+                    
+                    <p>Watch it Here:</p>
+                    <ul>
+                        <% anime.externalLinks.forEach(link => { %>
+                            <li><a href="<%= link.url %>" target="_blank"><%= link.site %></a></li>
+                        <% }); %>
+                    </ul>
+                    
+            </div>
+        </div>
+        
+        
+        <div class="card full-width-card">
+            <%
+    const sanitizedDescription = anime.description.replace(/<\/?[^>]+(>|$)/g, "");
+%>
+
+<p style="font-size:larger; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.5;">
+    <%= sanitizedDescription %>
+</p>
+        </div>
+        
+        <p></p>
+        <a style="margin-left: 45%;" class="custom-button" href="/animes?page=<%= Page %>">Back to Anime List</a>
+    </main>
+    <%- include("partials/footer.ejs") %>
+</body>
+</html>
+
