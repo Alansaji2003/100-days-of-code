@@ -1,0 +1,144 @@
+/* Reset some default browser styles */
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Verdana", sans-serif;
+}
+
+body {
+  background: url('/images/maxresdefault.jpg') center/cover fixed;
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #333;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+p,
+input,
+textarea {
+  margin-bottom: 30px;
+}
+
+small {
+  display: block;
+  margin-bottom: 30px;
+  color: #999;
+}
+
+input,
+textarea {
+  width: 95%; /* Reduced width */
+  max-width: 100%; /* Ensure it's not wider than the container */
+  padding: 15px;
+  border: 2px solid #555;
+  border-radius: 6px;
+  font-size: 1.2em;
+  background-color: #444;
+  color: #ddd;
+  outline: none;
+  transition: border 0.3s, color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+a,
+button {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.full-width {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+a,
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 30px 0;
+  border-bottom: 2px solid #666;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+a.edit {
+  background-color: #009688;
+}
+
+a.delete {
+  background-color: #e74c3c;
+}
+
+a.delete:hover {
+  background-color: #c0392b;
+}
+
+#newPostBtn {
+  margin: 30px 0;
+  background-color: #2ecc71;
+  padding: 15px 20px;
+  font-size: 1.2em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#newPostBtn:hover {
+  background-color: #27ae60;
+}
