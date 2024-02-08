@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(/images/bg2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.66;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    
+    display: flex;
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav .logo{
+    margin-top: 40px;
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 5;
+}
+nav button{
+    position: relative;
+    z-index: 5;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: large;
+    position: relative;
+    gap:23px ;
+    padding: 0 30px;
+
+}
+
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero .mid{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+.hero .low{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.seperation{
+    
+    height: 8px;
+    background-color: rgb(50, 49, 49);
+    position: absolute;
+    bottom: 3.4rem; 
+    left: 0; 
+    right: 0; 
+    
+    
+}
+.btn{
+    padding: 6px 36px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 4px;
+    
+}
+.btn-red:hover{
+    background-color: rgb(162, 0, 0);
+}
+.btn-red-sm:hover{
+    background-color: rgb(162, 0, 0);
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-red-sm{
+    padding: 8px 18px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.main input{
+    padding: 12px 44px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    background-color: rgb(248, 243, 243,0.021);
+    color: white;
+    
+}
+.btn-tran{
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: rgb(248, 243, 243,0.021);
+    color: white;
+    border:1px solid gray ;
+}
+
+.first{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    
+}
+
+.img-sec{
+    position: relative;
+}
+
+.img-sec img{
+    width: 384px;
+    position: relative;
+    z-index: 10;
+}
+.img-sec video.sec-vid{
+    width: 230px;
+    margin-right: 80px;
+    overflow: hidden;
+    
+}
+.img-sec video{
+    width: 280px;
+    margin-right: 50px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    overflow: hidden;
+   
+}
+
+.first > div{
+    display: flex;
+    flex-direction: column;
+
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+.first > div :nth-child(4){
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.faq{
+    padding-top: 150px;
+    color: white;
+    
+}
+.faq h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+}
+.faqBox{
+    
+    display: flex;
+    background-color: rgb(59, 59, 59);
+    justify-content: space-between;
+    padding: 28px;
+    color: white;
+    max-width: 60vw;
+    margin: 25px auto;
+    font-size: large;
+    cursor: pointer;
+}
+
+.faqBox:hover{
+    background-color: rgb(96, 94, 94);
+}
+.faqBox svg{
+    filter: invert(1);
+}
+
+footer{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+    margin-bottom: 100px;
+    
+}
+
+.footer-item a{
+    color: rgb(117, 117, 117);
+    padding: 10px;
+}
+
+.Questions{
+    
+    color: rgb(216, 211, 211);
+}
+.Questions a{
+    color: rgb(117, 117, 117);
+}
+
+@media screen and (max-width: 1100px) {
+    .first{
+        flex-wrap: wrap;
+    }
+    .b{
+        bottom: -34rem !important;
+    }
+    .c{
+        bottom: -70rem !important;
+    }
+    .d{
+        bottom: -100rem !important;
+    }
+    .e{
+        bottom: -135rem !important;
+    }
+    .f{
+        bottom: -188rem !important;
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 412px) and (min-height: 914px) {
+    .btn-div{
+        margin-top: 20px;
+    margin-left: 61px
+    }
+    .btn-tran{
+        color: transparent;
+    width: 80px;
+    height: 32px;
+    margin-bottom: 7px;
+    }
+    .btn-red{
+        margin-left: 79px;
+    margin-top: 10px;
+    }
+    
+    .first > div :first-child{
+        font-size: 30px;
+        font-weight: 900;
+        
+    }
+    .first > div :nth-child(4){
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    
+    
+    .faq{
+        
+        margin-top: 10px;
+    }
+    .faq h2{
+        font-size: 20px;
+    }
+    footer{
+        grid-template-columns: 1fr;
+    }
+
+}
+@media screen and (max-width: 897px) {
+    .first > div :first-child{
+        font-size: 40px;
+        font-weight: 900;
+        
+    }
+    .first > div :nth-child(4){
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 687px) {
+    .faq h2{
+        font-size: 25px;
+    }
+    .first > div :first-child{
+        font-size: 35px;
+        font-weight: 800;
+        
+    }
+}
+@media screen and (max-width: 577px) {
+    .btn-div{
+        margin-top: 20px;
+        margin-left: 61px
+    }
+    .btn-tran{
+        transform: translate(0px,16px);
+        color: transparent;
+        width: 80px;
+        height: 32px;
+        
+    }
+    .btn-red{
+        margin-left: 79px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 519px) {
+    .first > div :first-child{
+        font-size: 30px;
+        font-weight: 800;
+        
+    }
+    .first > div :nth-child(4){
+        font-size: 15px;
+        font-weight: 500;
+    }
+    footer{
+        
+        grid-template-columns: 1fr;
+    }
+    .hero > :nth-child(1) {
+        font-weight: 900;
+        font-size: 40px;
+        text-align: center;
+      }
+    .Questions{
+        margin-top: 200px;
+    }
+}
+@media screen and (max-width: 519px) {
+    .first > div :first-child{
+        font-size: 25px;
+        font-weight: 800;
+        
+    }
+    sec-title{
+        margin-top: 50px
+    }
+}
+@media screen and (min-height: 1180px) and (max-height: 1180px){
+    .btn-tran{
+        transform: translate(0px,16px);
+        
+}
+}
