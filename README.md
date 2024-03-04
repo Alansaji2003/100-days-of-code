@@ -151,7 +151,101 @@ learned about APIs, authorizations , no auth, basic auth, api keys and bearer to
 ### Day 51
 Getting started with graphQL for a side project
 
+### DAY 52
+**Progress:** Working on school project - DSN-Project<br>
+**Thoughts:** Making progress on my school project. It's challenging but rewarding.
 
+### DAY 53
+**Progress:** Making anime information website<br>
+**Thoughts:** Excited to work on this project! Anime is one of my passions.
+
+### DAY 54
+**Progress:** Making my own REST API<br>
+**Thoughts:** Building a REST API from scratch is quite the learning experience.
+
+### DAY 55
+**Progress:** Blog website with REST architecture<br>
+**Thoughts:** Exploring REST architecture further with a blog website project.
+
+### DAY 56
+**Progress:** City capitals using postgres<br>
+**Thoughts:** Integrating PostgreSQL into my projects for data management.
+
+### DAY 57
+**Progress:** Flags project using postgres<br>
+**Thoughts:** PostgreSQL is proving to be a versatile tool for different types of projects.
+
+### DAY 58
+**Progress:** Travel tracker project<br>
+**Thoughts:** Enjoying the process of building a travel tracker application.
+
+### DAY 59
+**Progress:** Family travel tracker (postgres)<br>
+**Thoughts:** Customizing my travel tracker project for family use with PostgreSQL.
+
+### DAY 60
+**Progress:** To-do list with postgres<br>
+**Thoughts:** Adding PostgreSQL to my to-do list project for better data organization.
+
+### DAY 61
+**Progress:** Secrets website with postgres<br>
+**Thoughts:** Working on a project involving user secrets, with postgreSQL to persist data.
+
+### DAY 62
+**Progress:** Amazon clone with HTML CSS<br>
+**Thoughts:** Recreating the Amazon website layout with HTML and CSS for practice.
+
+### DAY 63
+**Progress:** Netflix clone (responsive)<br>
+**Thoughts:** Building a responsive Netflix clone to enhance my front-end skills.
+
+### DAY 64
+**Progress:** Basic auth with postgres<br>
+**Thoughts:** Implementing basic authentication for user security with PostgreSQL.
+
+### DAY 65
+**Progress:** Secure bcrypt hashing<br>
+**Thoughts:** Strengthening user password security with bcrypt hashing.
+
+### DAY 66
+**Progress:** Cookies and sessions using passport<br>
+**Thoughts:** Managing user sessions and cookies for authentication purposes.
+
+### DAY 67
+**Progress:** Working with dotenv<br>
+**Thoughts:** Utilizing dotenv for managing environment variables in my projects.
+
+### DAY 68
+**Progress:** Google auth, login, and signup<br>
+**Thoughts:** Integrating Google authentication into my projects for user convenience.
+
+### DAY 69
+**Progress:** Secrets project complete<br>
+**Thoughts:** Completed my secrets project, feeling accomplished!
+
+### DAY 70
+**Progress:** Intro on JSX and Babel<br>
+**Thoughts:** Learning about JSX and Babel to enhance my React skills.
+
+### DAY 71
+**Progress:** JS expressions in JSX<br>
+**Thoughts:** Exploring JavaScript expressions within JSX for dynamic content.
+
+### DAY 72
+**Progress:** JSX styling<br>
+**Thoughts:** Styling JSX components to enhance the visual appeal of my projects.
+
+### DAY 73
+**Progress:** React components<br>
+**Thoughts:** Diving deeper into React components for modular and reusable code.
+
+### DAY 74
+**Progress:** ES6 import and export<br>
+**Thoughts:** Using ES6 import and export syntax for better module management.
+
+### DAY 75
+**Progress:** Keeper app start<br>
+**Thoughts:** Beginning work on the Keeper app project. Excited to dive into React further!
 
 
 
