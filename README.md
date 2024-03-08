@@ -247,5 +247,13 @@ Getting started with graphQL for a side project
 **Progress:** Keeper app start<br>
 **Thoughts:** Beginning work on the Keeper app project. Excited to dive into React further!
 
+### DAY 76
+**Progress:** About React Props<br>
+**Thoughts:** Good day!
+
+
+### DAY 77
+**Progress:** About React dev tools , Dom structure and mapping components using .map(<function>)<br>
+**Thoughts:** Good day!
 
 
