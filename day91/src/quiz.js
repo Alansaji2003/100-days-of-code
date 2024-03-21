@@ -1,0 +1,25 @@
+const quiz = [
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"This mobile OS held the largest market share in 2012.","correct_answer":"iOS","incorrect_answers":["Android","BlackBerry","Symbian"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"What is the code name for the mobile operating system Android 7.0?","correct_answer":"Nougat","incorrect_answers":["Ice Cream Sandwich","Jelly Bean","Marshmallow"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?","correct_answer":"Apple","incorrect_answers":["Microsoft","Atari","Commodore"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"What does the Prt Sc button do?","correct_answer":"Captures what's on the screen and copies it to your clipboard","incorrect_answers":["Nothing","Saves a .png file of what's on the screen in your screenshots folder in photos","Closes all windows"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:","correct_answer":"HD Graphics 500","incorrect_answers":["HD Graphics 700 ","HD Graphics 600","HD Graphics 7000"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"What amount of bits commonly equals one byte?","correct_answer":"8","incorrect_answers":["1","2","64"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"What does the \"MP\" stand for in MP3?","correct_answer":"Moving Picture","incorrect_answers":["Music Player","Multi Pass","Micro Point"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"The numbering system with a radix of 16 is more commonly referred to as ","correct_answer":"Hexidecimal","incorrect_answers":["Binary","Duodecimal","Octal"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"What does CPU stand for?","correct_answer":"Central Processing Unit","incorrect_answers":["Central Process Unit","Computer Personal Unit","Central Processor Unit"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"When Gmail first launched, how much storage did it provide for your email?","correct_answer":"1GB","incorrect_answers":["512MB","5GB","Unlimited"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"How many values can a single byte represent?","correct_answer":"256","incorrect_answers":["8","1","1024"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"Which programming language shares its name with an island in Indonesia?","correct_answer":"Java","incorrect_answers":["Python","C","Jakarta"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"What does GHz stand for?","correct_answer":"Gigahertz","incorrect_answers":["Gigahotz","Gigahetz","Gigahatz"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"In web design, what does CSS stand for?","correct_answer":"Cascading Style Sheet","incorrect_answers":["Counter Strike: Source","Corrective Style Sheet","Computer Style Sheet"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"According to the International System of Units, how many bytes are in a kilobyte of RAM?","correct_answer":"1000","incorrect_answers":["512","1024","500"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"What language does Node.js use?","correct_answer":"JavaScript","incorrect_answers":["Java","Java Source","Joomla Source Code"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"What does LTS stand for in the software market?","correct_answer":"Long Term Support","incorrect_answers":["Long Taco Service","Ludicrous Transfer Speed","Ludicrous Turbo Speed"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"In computing, what does LAN stand for?","correct_answer":"Local Area Network","incorrect_answers":["Long Antenna Node","Light Access Node","Land Address Navigation"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"Which computer hardware device provides an interface for all other connected devices to communicate?","correct_answer":"Motherboard","incorrect_answers":["Central Processing Unit","Hard Disk Drive","Random Access Memory"]},
+  {"type":"multiple","difficulty":"easy","category":"Science: Computers","question":"On Twitter, what was the original character limit for a Tweet?","correct_answer":"140","incorrect_answers":["120","160","100"]}
+  
+  ];
+
+  export default quiz;
