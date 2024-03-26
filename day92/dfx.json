@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "Vbank_V2_backend": {
+      "main": "src/Vbank_V2_backend/main.mo",
+      "type": "motoko"
+    },
+    "Vbank_V2_frontend": {
+      "dependencies": [
+        "Vbank_V2_backend"
+      ],
+      "source": [
+        "src/Vbank_V2_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Vbank_V2_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
