@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <!-- Font Awesome CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+    <title>Driver Information</title>
+    <style>
+        body {
+           background: url(images/bg_vol.png);
+           background-size: cover;
+           background-repeat: no-repeat;
+            padding: 0;
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            color: #000;
+        }
+        .Driver-profile .card {
+            border-radius: 10px;
+        }
+        .Driver-profile .card .card-header .profile_img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px auto;
+            border: 10px solid #ccc;
+            border-radius: 50%;
+        }
+        .Driver-profile .card h3 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .Driver-profile .card p {
+            font-size: 16px;
+            color: #000;
+        }
+        .Driver-profile .table th,
+        .Driver-profile .table td {
+            font-size: 14px;
+            padding: 5px 10px;
+            color: #000;
+        }
+        .sign-out {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="Driver-profile py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-transparent text-center">
+                            <img class="profile_img" src="https://source.unsplash.com/600x300/?driver" >
+                            <h3>John Doe</h3>
+                            <p>Mobile: +919876543210</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="mb-0"><strong class="pr-1">Driver ID:</strong>123456</p>
+                            <p class="mb-0"><strong class="pr-1">Age:</strong>40</p>
+                            <p class="mb-0"><strong class="pr-1">Years of Experience:</strong>15</p>
+                            <p class="mb-0"><strong class="pr-1">Driving License:</strong>DL123456789</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-transparent border-0">
+                            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
+                        </div>
+                        <div class="card-body pt-0">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th width="30%">Date of Birth</th>
+                                    <td width="2%">:</td>
+                                    <td>03/11/1982</td>
+                                </tr>
+                                <tr>
+                                    <th width="30%">Years of Experience</th>
+                                    <td width="2%">:</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <th width="30%">Family Member's Contact Number</th>
+                                    <td width="2%">:</td>
+                                    <td>+91XXXXXXXXXX</td>
+                                </tr>
+                                <tr>
+                                    <th width="30%">Country</th>
+                                    <td width="2%">:</td>
+                                    <td>India</td>
+                                </tr>
+                                <tr>
+                                    <th width="30%">State</th>
+                                    <td width="2%">:</td>
+                                    <td>Delhi</td>
+                                </tr>
+                                <tr>
+                                    <th width="30%">Gender</th>
+                                    <td width="2%">:</td>
+                                    <td>Male</td>
+                                </tr>
+                                <tr>
+                                    <th width="30%">Pincode</th>
+                                    <td width="2%">:</td>
+                                    <td>452011</td>
+                                </tr>
+                                <tr>
+                                    <th width="30%">Blood Group</th>
+                                    <td width="2%">:</td>
+                                    <td>O+</td>
+                                </tr>
+                            </table>
+                            <button id="logoutbutton" class="sign-out btn">Sign Out</button>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm mt-4">
+                        <div class="card-header bg-transparent border-0">
+                            <h3 class="mb-0"><i class="far fa-clone pr-1"></i>Reviews</h3>
+                        </div>
+                        <div class="card-body pt-0">
+                          
+                            <p>Excellent service, very polite and professional driver!</p>
+                            <p>Always on time and very courteous. Highly recommended!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //aditya nair was here
+        document.getElementById("logoutbutton").onclick = function() {
+        
+        window.location.href = "/logout";
+    };
+    document.getElementById("bookcabbutton").onclick = function() {
+        
+        window.location.href = "/book_cab";
+    };
+      </script>
+</body>
+</html>
+
+<!-- background-image: url(images/vol-bg.png); -->
+<!-- background-image: url(images/LogVol-bg.png); -->
+<!-- <img src="images/sun.gif" alt="" width="40%"> -->

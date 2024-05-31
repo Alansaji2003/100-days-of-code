@@ -255,5 +255,92 @@ Getting started with graphQL for a side project
 ### DAY 77
 **Progress:** About React dev tools , Dom structure and mapping components using .map(<function>)<br>
 **Thoughts:** Good day!
+### DAY 78
+Progress: Emoji meaning site
+
+
+### DAY 79
+**Progress:** Important functions, keeper pt2
+
+
+### DAY 80
+**Progress:** Update keeperApp
+
+
+### DAY 81
+**Progress:** Conditional rendering
+
+
+### DAY 82
+**Progress:** State in React
+
+
+### DAY 83
+**Progress:** useState hooks
+
+
+### DAY 84
+**Progress:** Destructuring array and objects
+
+
+### DAY 85
+**Progress:** Event Handling
+
+
+### DAY 86
+**Progress:** React Forms and Controlled Components
+
+
+### DAY 87
+**Progress:** Changing Complex State
+
+
+### DAY 88
+**Progress:** ES6 Spread Operator
+
+
+### DAY 89
+**Progress:** Managing Component Tree
+
+
+### DAY 90
+**Progress:** KeepiTApp complete (MUI)
+
+
+### DAY 91
+**Progress:** Quiz App with React (Gamified)
+
+
+### DAY 92
+**Progress:** Vbank Defi App on ICP Blockchain
+
+
+### DAY 93
+**Progress:** Deploying Keeper in ICP Blockchain
+
+
+### DAY 94
+**Progress:** Making crypto faucet on blockchain
+
+
+### DAY 95
+**Progress:** Making NFT MarketPlace on blockchain
+
+
+### DAY 96
+**Progress:** FullStackApp with Spring Boot
+
+
+### DAY 97
+**Progress:** Face recognition, age prediction, emotion detection
+
+
+### DAY 98
+**Progress:** Real-time chat app with socket.io
+
+
+### DAY 99
+**Progress:** Stock price prediction website
+
 
 

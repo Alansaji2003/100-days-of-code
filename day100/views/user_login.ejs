@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page for UTS services</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <style>
+    body {
+      background-image: url(images/LogVol-bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: "Open Sans", sans-serif;
+      color: #100e0e;
+      padding-top: 32px;
+    }
+
+    .box-form {
+      margin: 0 auto;
+      width: 80%;
+      background: lightblue;
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex: 1 1 100%;
+      align-items: stretch;
+      justify-content: space-between;
+      box-shadow: 0 0 30px 10px black;
+    }
+
+    @media (max-width: 980px) {
+      .box-form {
+        flex-flow: wrap;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+      }
+    }
+
+    .overlay {
+      padding: 30px;
+      width: 100%;
+      height: 100%;
+      background: url(images/us-bg.png);
+      overflow: hidden;
+      box-sizing: border-box;
+      opacity: 0.7;
+    }
+
+    .overlay h1 {
+      font-size: 8vmax;
+      line-height: 1;
+      font-weight: 900;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    .overlay span p {
+      margin-top: 30px;
+      font-weight: 900;
+    }
+
+    .overlay span a {
+      background: blue;
+      color: #FFFFFF;
+      margin-top: 10px;
+      padding: 14px 50px;
+      border-radius: 100px;
+      display: inline-block;
+      box-shadow: 0 3px 6px 1px #042d4657;
+    }
+
+    .overlay span a:last-child {
+      background: #d7d7d7;
+      margin-left: 30px;
+      color: black;
+    }
+
+    .right {
+      padding: 40px;
+      overflow: hidden;
+    }
+
+    @media (max-width: 980px) {
+      .right {
+        width: 90%;
+      }
+    }
+
+    .right h5 {
+      font-size: 6vmax;
+      line-height: 0;
+    }
+
+    .right p {
+      font-size: 14px;
+      color: #323742;
+    }
+
+    .inputs {
+      overflow: hidden;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 25px;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      border-bottom: 4px solid grey;
+    }
+
+    .remember-me--forget-password {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .remember-me--forget-password input {
+      margin: 0;
+      margin-right: 7px;
+      width: auto;
+    }
+
+    button {
+      color: #fff;
+      font-size: 16px;
+      padding: 12px 35px;
+      border-radius: 50px;
+      display: inline-block;
+      border: 0;
+      outline: 0;
+      box-shadow: 0px 4px 20px 0px #49c628a6;
+      background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+      cursor: pointer;
+    }
+
+    label {
+      display: block;
+      position: relative;
+      margin-left: 30px;
+    }
+
+    label::before {
+      content: ' \f00c';
+      position: absolute;
+      font-family: FontAwesome;
+      background: transparent;
+      border: 3px solid #70F570;
+      border-radius: 4px;
+      color: transparent;
+      left: -30px;
+      transition: all 0.2s linear;
+    }
+
+    label:hover::before {
+      font-family: FontAwesome;
+      content: ' \f00c';
+      color: #fff;
+      cursor: pointer;
+      background: #70F570;
+    }
+
+    label:hover::before .text-checkbox {
+      background: blue;
+    }
+
+    label span.text-checkbox {
+      display: inline-block;
+      height: auto;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.2s linear;
+    }
+
+    label input[type="checkbox"] {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="box-form">
+    <div class="left">
+      <div class="overlay">
+        <h1><center>U.T.S </center></h1>
+        <p style="font-size: smaller; font-weight: 900;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolore quos corporis ea eligendi labore velit neque dolorem, laborum eaque sed alias quod incidunt animi odio cupiditate itaque officia nemo?
+        </p>
+        <br>
+        <br>
+        <span>
+          <p>Login with social media</p>
+          <a style="text-decoration: none;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+          </svg>  Login with facebook</a>
+          <a style="text-decoration: none;" href="/auth/google"><?xml version="1.0" ?><svg width="20" id="Capa_1" style="enable-background:new 0 0 150 150;" version="1.1" viewBox="0 0 150 150" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+            .st0{fill:#1A73E8;}
+            .st1{fill:#EA4335;}
+            .st2{fill:#4285F4;}
+            .st3{fill:#FBBC04;}
+            .st4{fill:#34A853;}
+            .st5{fill:#4CAF50;}
+            .st6{fill:#1E88E5;}
+            .st7{fill:#E53935;}
+            .st8{fill:#C62828;}
+            .st9{fill:#FBC02D;}
+            .st10{fill:#1565C0;}
+            .st11{fill:#2E7D32;}
+            .st12{fill:#F6B704;}
+            .st13{fill:#E54335;}
+            .st14{fill:#4280EF;}
+            .st15{fill:#34A353;}
+            .st16{clip-path:url(#SVGID_2_);}
+            .st17{fill:#188038;}
+            .st18{opacity:0.2;fill:#FFFFFF;enable-background:new    ;}
+            .st19{opacity:0.3;fill:#0D652D;enable-background:new    ;}
+            .st20{clip-path:url(#SVGID_4_);}
+            .st21{opacity:0.3;fill:url(#_45_shadow_1_);enable-background:new    ;}
+            .st22{clip-path:url(#SVGID_6_);}
+            .st23{fill:#FA7B17;}
+            .st24{opacity:0.3;fill:#174EA6;enable-background:new    ;}
+            .st25{opacity:0.3;fill:#A50E0E;enable-background:new    ;}
+            .st26{opacity:0.3;fill:#E37400;enable-background:new    ;}
+            .st27{fill:url(#Finish_mask_1_);}
+            .st28{fill:#FFFFFF;}
+            .st29{fill:#0C9D58;}
+            .st30{opacity:0.2;fill:#004D40;enable-background:new    ;}
+            .st31{opacity:0.2;fill:#3E2723;enable-background:new    ;}
+            .st32{fill:#FFC107;}
+            .st33{opacity:0.2;fill:#1A237E;enable-background:new    ;}
+            .st34{opacity:0.2;}
+            .st35{fill:#1A237E;}
+            .st36{fill:url(#SVGID_7_);}
+            .st37{fill:#FBBC05;}
+            .st38{clip-path:url(#SVGID_9_);fill:#E53935;}
+            .st39{clip-path:url(#SVGID_11_);fill:#FBC02D;}
+            .st40{clip-path:url(#SVGID_13_);fill:#E53935;}
+            .st41{clip-path:url(#SVGID_15_);fill:#FBC02D;}
+          </style><g><path class="st14" d="M120,76.1c0-3.1-0.3-6.3-0.8-9.3H75.9v17.7h24.8c-1,5.7-4.3,10.7-9.2,13.9l14.8,11.5   C115,101.8,120,90,120,76.1L120,76.1z"/><path class="st15" d="M75.9,120.9c12.4,0,22.8-4.1,30.4-11.1L91.5,98.4c-4.1,2.8-9.4,4.4-15.6,4.4c-12,0-22.1-8.1-25.8-18.9   L34.9,95.6C42.7,111.1,58.5,120.9,75.9,120.9z"/><path class="st12" d="M50.1,83.8c-1.9-5.7-1.9-11.9,0-17.6L34.9,54.4c-6.5,13-6.5,28.3,0,41.2L50.1,83.8z"/><path class="st13" d="M75.9,47.3c6.5-0.1,12.9,2.4,17.6,6.9L106.6,41C98.3,33.2,87.3,29,75.9,29.1c-17.4,0-33.2,9.8-41,25.3   l15.2,11.8C53.8,55.3,63.9,47.3,75.9,47.3z"/></g></svg>
+            Login with Google</a>
+        </span>
+        <img src="images/sun.gif" alt="" width="40%">
+      </div>
+    </div>
+    <div class="right">
+      <h5>Login</h5>
+      <p>Don't have an account? <a href="#">Create Your Account</a> in just a few minutes</p>
+      <form action="/login_user" method="post">
+        <div class="inputs">
+          <input name="username" type="text" placeholder="Phone Number (+91)" maxlength="10">
+          <br>
+          <input name="password" type="password" placeholder="Password">
+        </div>
+        <br>
+        <button type="submit">Login</button>
+        <br><br>
+      </form>
+      <a href="/faceID">
+        <button style="background-image: linear-gradient(135deg, #7270f5 10%, #9428c6 100%);box-shadow: 0px 4px 20px 0px #c628c1a6;">Login with face ID <img width="20" src="https://cdn-icons-png.flaticon.com/512/1231/1231006.png" alt=""></button>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Cab</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(images/background_3.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        z-index: 10;
+        width: 90%;
+        display: flex;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-left: 55px;
+    }
+    #map {
+        flex: 1;
+        height: 560px;
+        background: url(images/map.jpg) no-repeat;
+        background-size: cover;
+    }
+    .booking-details {
+        flex: 1;
+        padding: 20px;
+        background-color: #F6F5F2;
+    }
+    h1 {
+        text-align: center;
+    }
+    .booking-details input {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: 1px solid black; 
+        background: transparent; 
+    }
+    .booking-details h3 {
+        text-align: center;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+    <div class="background-container">
+        <div  class="container">
+            <div id="map"></div>
+            <div class="booking-details">
+                <h1>Passenger Booking Details</h1>
+                <div class="booking-details">
+                    <input type="text" value="Riya Kumari" placeholder="Name">
+                    <input type="text" value="Mahim, Mumbai" placeholder="Pickup Location">
+                    <input type="text" value="Bandra, Mumbai" placeholder="Drop-off Location">
+                    <input type="tel" value="+919856748908" placeholder="Mobile Number">
+                    <input type="text" value="Rs 400" placeholder="Fare Price">
+                    <input type="time" value="12:00" placeholder="Booking Time">
+                    <input type="date" value="2024-03-06" placeholder="Date">
+                    <input type="text" value="No" placeholder="Traveling Alone">
+                    <input type="text" value="Cash" placeholder="Payment Method">
+                    <h3>The taxi will arrive shortly..... <img width="25" src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" alt=""></h3>
+                    <button id="complete-payment">Finish ride and complete payment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("complete-payment").addEventListener("click", function() {
+            window.location.href = "/payment";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup User</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+</head>
+<body>
+    <section class="background-radial-gradient overflow-hidden">
+        <style>
+          .background-radial-gradient {
+            background-color: hsl(180, 3%, 6%);
+            background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(70, 41%, 45%) 15%,
+                hsl(78, 41%, 30%) 35%,
+                hsl(69, 41%, 20%) 75%,
+                hsl(69, 40%, 19%) 80%,
+                transparent 100%),
+              radial-gradient(1250px circle at 100% 100%,
+                hsl(68, 41%, 45%) 15%,
+                hsl(64, 41%, 30%) 35%,
+                hsl(66, 41%, 20%) 75%,
+                hsl(65, 40%, 19%) 80%,
+                transparent 100%);
+          }
+      
+          #radius-shape-1 {
+            height: 220px;
+            width: 220px;
+            top: -60px;
+            left: -130px;
+            background: radial-gradient(#a5ae03, #fff81f);
+            overflow: hidden;
+          }
+      
+          #radius-shape-2 {
+            border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+            bottom: -60px;
+            right: -110px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(#a5ae03, #fff81f);
+            overflow: hidden;
+          }
+      
+          .bg-glass {
+            background-color: hsla(0, 0%, 100%, 0.9) !important;
+            backdrop-filter: saturate(200%) blur(25px);
+          }
+        </style>
+      
+        <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+          <div class="row gx-lg-5 align-items-center mb-5">
+            <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+              <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
+                Sign up to UTS <br />
+                <span style="color: #fff81f">Create your UTS account! Wonderful things awaits you</span>
+              </h1>
+              <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus, expedita iusto veniam atque, magni tempora mollitia
+                dolorum consequatur nulla, neque debitis eos reprehenderit quasi
+                ab ipsum nisi dolorem modi. Quos?
+              </p>
+            </div>
+      
+            <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+              <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+              <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+      
+              <div class="card bg-glass">
+                <div class="card-body px-4 py-5 px-md-5">
+                  <form action="/signup_user" method="post">
+                    <!-- 2 column grid layout with text inputs for the first and last names -->
+
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input name="firstName" type="text" id="form3Example1" class="form-control" />
+                          <label class="form-label" for="form3Example1">First name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <input name="lastName" type="text" id="form3Example2" class="form-control" />
+                          <label class="form-label" for="form3Example2">Last name</label>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <input name="phoneNo" type="text" placeholder="+91" id="form3Example3" class="form-control" maxlength="10">
+                      <label class="form-label" for="form3Example3">Phone Number</label>
+                    </div>
+      
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                      <button type="button" id="toggleButton" onclick="togglePassword()">👁️</button>
+                      <input name="password" type="password" id="form3Example4" class="form-control" autocomplete="off"/>
+
+                      <label class="form-label" for="form3Example4">Password</label>
+                    </div>
+      
+                    <!-- Checkbox
+                    <div class="form-check d-flex justify-content-center mb-4">
+                      <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                      <label class="form-check-label" for="form2Example33">
+                        Subscribe to our newsletter
+                      </label>
+                    </div> -->
+      
+                    <!-- Submit button -->
+                    
+                      <button id="mySubmit" type="submit" class="btn btn-primary btn-block mb-4">
+                        Sign up
+                      </button>
+                      
+                      
+                    
+                    
+                      </form>
+                      
+      
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                      <p>or sign up with:</p>
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg>
+                      </button>
+      
+        <button id="googlebutton"  type="button" class="btn btn-link btn-floating mx-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+          </svg>
+        </button>
+      
+                      
+      
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                        </svg>
+                      </button>
+    
+                    </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+
+</script>
+<script>
+    function togglePassword() {
+        var passwordField = document.getElementById("form3Example4");
+        var toggleButton = document.getElementById("toggleButton");
+
+        if (passwordField.type === "password") {
+            passwordField.type = "text";
+            toggleButton.textContent = "👁️";
+        } else {
+            passwordField.type = "password";
+            toggleButton.textContent = "👁️";
+        }
+    }
+
+    document.getElementById("googlebutton").onclick = function() {
+       
+        window.location.href = "/auth/google";
+    };
+</script>
+</html>
+

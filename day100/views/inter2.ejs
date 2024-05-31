@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volunteer Ride Request</title>
+<style>
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(images/background_for_volunteers.png) no-repeat center top / cover fixed;
+}
+
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color:#5F5D9C;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        color: white;
+    }
+    .ride-details {
+        margin-bottom: 30px;
+        display: none; 
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: black;
+    }
+    input[type="text"] {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .button-container {
+        text-align: center;
+    }
+    button {
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        margin: 0 10px; 
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+    #accept-ride {
+        background-color: #4caf50;
+        color: white;
+    }
+    #decline-ride {
+        background-color: #f44336;
+        color: white;
+    }
+    button:hover {
+        filter: brightness(110%);
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Volunteer Ride Request</h1>
+   <label for="pickup-radius">Pickup Radius:</label>
+        <input type="text" id="pickup-radius" value="5 miles" readonly>
+    <div class="ride-details" id="ride-details">
+        <label for="pickup-location">Pickup Location:</label>
+        <input type="text" id="pickup-location" value="123 Main Street, City" readonly>
+        <label for="dropoff-location">Drop-off Location:</label>
+        <input type="text" id="dropoff-location" value="456 Park Avenue, Town" readonly>
+        
+        <label for="ride-date">Date:</label>
+        <input type="text" id="ride-date" value="March 10, 2024" readonly>
+        <label for="passenger-disability">Passenger Disability:</label>
+        <input type="text" id="passenger-disability" value="Visual Impairment" readonly>
+    </div>
+    <div class="button-container">
+        <button id="accept-ride">Accept Ride</button>
+        <button id="decline-ride">Decline Ride</button>
+    </div>
+</div>
+<script>
+    document.getElementById("accept-ride").addEventListener("click", function() {
+        var rideDetails = document.getElementById("ride-details");
+        rideDetails.style.display = "block";
+    });
+
+    document.getElementById("decline-ride").addEventListener("click", function() {
+        var rideDetails = document.getElementById("ride-details");
+        rideDetails.style.display = "none";
+    });
+</script>
+</body>
+</html>

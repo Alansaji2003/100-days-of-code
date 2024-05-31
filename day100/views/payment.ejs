@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f3f3;
+        }
+
+        .payment-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .amount-label {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        #pay-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #pay-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="payment-container">
+        <h2>Payment Details</h2>
+        <div class="amount-label">Amount to be paid: ₹400</div>
+        <br><br>
+        <button id="pay-button">Pay with Razorpay</button>
+    </div>
+</body>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    var orderId;
+
+    $(document).ready(function(){
+        // On button click, fetch order ID and initiate Razorpay checkout
+        $("#pay-button").click(function(e) {
+            // AJAX request to create order on the server
+            $.ajax({
+                url: "/create-order",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    amount: 40000 // Example amount in smallest currency unit (1000 ₹)
+                }),
+                success: function(response) {
+                    orderId = response.orderId;
+
+                    var options = {
+                        key: 'rzp_test_9wbgKGqZ4eqQ3L', // Enter your Razorpay Key ID
+                        amount: 40000, // Example amount in smallest currency unit (1000 ₹)
+                        currency: 'INR',
+                        name: 'United Transit',
+                        description: 'Test Transaction',
+                        image: 'https://c8.alamy.com/comp/2RHCKGJ/uts-letter-logo-design-with-polygon-shape-uts-polygon-and-cube-shape-logo-design-uts-hexagon-vector-logo-template-white-and-black-colors-uts-monogr-2RHCKGJ.jpg',
+                        order_id: orderId,
+                        handler: function(response) {
+                            alert(response.razorpay_payment_id);
+                            alert(response.razorpay_order_id);
+                            alert(response.razorpay_signature);
+                        },
+                        
+                        notes: {
+                            address: 'Razorpay Corporate Office'
+                        },
+                        theme: {
+                            color: '#FFC100'
+                        }
+                    };
+
+                    var rzp1 = new Razorpay(options);
+                    rzp1.open();
+                }
+            });
+
+            e.preventDefault();
+        });
+    });
+</script>
+</html>

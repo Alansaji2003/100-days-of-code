@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-image: url(https://alansaji2003.github.io/UTS/static/images/top-bg.jpg);
+}
+  
+nav {
+    background-color: #000000;
+    overflow: hidden;
+    border: solid white 1px;
+  }
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+  }
+  
+li {
+    float: left;
+  }
+  
+.logo a {
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  
+input {
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+a {
+    display: block;
+   
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+/** search **/
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+
+.search-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.voicebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#searchResults {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: none;
+    background-color: white;
+}
+#status{
+  background-color: white;
+}
+
+/**map**/
+.map-container {
+    width: 100%;
+    height: 600px; /* Adjust height as needed */
+    text-align: center;
+}
+
+#map {
+    display: flex;
+    width: 1200px;
+    height: 580px;
+    margin: auto;
+
+}
+.leaflet-routing-container {
+  background-color: white;
+ 
+}

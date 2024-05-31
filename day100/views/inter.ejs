@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Passenger Booking Details</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Set a background color for the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background-container {
+    /* Container to hold the background image */
+    background: url(images/background_3.png);
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Move the background container behind the content */
+}
+
+  
+    .container {
+        z-index: 10;
+        width: 90%;
+        display: flex;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-left: 55px;
+    }
+    #map {
+        flex: 1;
+        height: 560px;
+    }
+    .booking-details {
+        flex: 1;
+        padding: 20px;
+        background-color:lightblue;
+    }
+    h1 {
+        text-align: center;
+    }
+    .booking-details p {
+        margin-bottom: 10px;
+    }
+    
+   
+</style>
+</head>
+<body>
+    <div class="background-container">
+        <div  class="container">
+            <div style="background: url(images/map.jpg); background-repeat: no-repeat; background-size: cover;" id="map"></div>
+            <div class="booking-details">
+                <h1>Passenger Booking Details</h1>
+                <div class="booking-details">
+                    <p><strong>Passenger Name:</strong> Riya Kumari</p>
+                    <p><strong>Pickup Location:</strong> Mahim,Mumbai</p>
+                    <p><strong>Drop-off Location:</strong> Bandra,Mumbai</p>
+                    <p><strong>Mobile Number:</strong> +919856748908</p>
+                    <p><strong>Fare Price:</strong> Rs 400</p>
+                    <p><strong>Booking Time:</strong> 🕒 12:00 PM</p>
+                    <p><strong>Date:</strong> March 6, 2024</p>
+                    <p><strong>Elderly/Disabled:</strong> Yes</p>
+                    <p><strong>Traveling Alone:</strong> No</p>
+                    <p><strong>Payment Method:</strong> Cash</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+   
+
+
+
+</body>
+</html>
